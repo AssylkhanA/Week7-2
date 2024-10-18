@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week7</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>BMI Calculator</h2>
+        <input type="number" id="weight" placeholder="Enter weight (kg)">
+        <input type="number" id="height" placeholder="Enter height (m)">
+        <button onclick="calculateBMI()">Calculate BMI</button>
+        <div id="bmiResult" class="result"></div>
+    </div>
+
+    <div class="container">
+        <h2>Who’s Buying Lunch?</h2>
+        <input type="text" id="names" placeholder="Enter names separated by comma">
+        <button onclick="decideLunch()">Who’s Paying?</button>
+        <div id="lunchResult" class="result"></div>
+    </div>
+
+    <div class="container">
+        <h2>Fibonacci Generator</h2>
+        <input type="number" id="fibonacciNumber" placeholder="Enter number of terms">
+        <button onclick="generateFibonacci()">Generate Fibonacci</button>
+        <div id="fibonacciResult" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
